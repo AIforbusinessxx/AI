@@ -1,0 +1,18 @@
+# Visual Studio çalışma dosyalarını hariç tut
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+
+# Build ve diğer geçici dosyalar
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+
+# Diğer istemediğiniz dosyalar
+__pycache__/
+*.pyc
+*.env
