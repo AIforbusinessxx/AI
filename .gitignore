@@ -1,18 +1,27 @@
-# Visual Studio çalışma dosyalarını hariç tut
+# Python pycache klasörlerini ve içeriklerini yok say
+__pycache__/
+*.py[cod]
+
+# Virtual Environment (sanal ortam) klasörlerini yok say
+env/
+venv/
+*.env
+
+# IDE ve diğer geçici dosyalar
 .vs/
 *.user
 *.suo
 *.cache
 *.log
+.idea/
+.vscode/
 
-# Build ve diğer geçici dosyalar
+# Log dosyaları
+*.log
+
+# Derleme dosyaları
 bin/
 obj/
 *.exe
 *.dll
 *.pdb
-
-# Diğer istemediğiniz dosyalar
-__pycache__/
-*.pyc
-*.env
